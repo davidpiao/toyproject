@@ -1,0 +1,5 @@
+package epp.sayhi.toy.controller;
+
+public class BoardController {
+
+}

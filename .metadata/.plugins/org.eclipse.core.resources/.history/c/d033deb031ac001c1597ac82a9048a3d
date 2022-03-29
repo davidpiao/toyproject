@@ -1,0 +1,5 @@
+package epp.sayhi.toy.repository;
+
+public class ProductDAO {
+
+}

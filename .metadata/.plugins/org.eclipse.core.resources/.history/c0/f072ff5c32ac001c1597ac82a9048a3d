@@ -1,0 +1,5 @@
+package epp.sayhi.toy.service;
+
+public class ProductServiceImpl {
+
+}
