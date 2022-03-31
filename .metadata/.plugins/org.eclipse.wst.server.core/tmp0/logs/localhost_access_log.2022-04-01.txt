@@ -14,3 +14,13 @@
 0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:08:19 +0900] "GET /toy/resources/css/list_style.css HTTP/1.1" 200 1556
 0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:08:42 +0900] "GET /toy/product/list HTTP/1.1" 200 12369
 0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:08:54 +0900] "GET /toy/product/detail/23 HTTP/1.1" 200 8276
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:10:50 +0900] "GET /toy/product/list HTTP/1.1" 200 12369
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:10:53 +0900] "GET /toy/product/list HTTP/1.1" 200 12369
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:10:55 +0900] "GET /toy/product/upload HTTP/1.1" 200 1072
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:11:23 +0900] "GET /toy/product/upload HTTP/1.1" 200 3178
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:11:51 +0900] "POST /toy/product/uploadok HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:11:51 +0900] "GET /toy/product/list HTTP/1.1" 200 12744
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:12:18 +0900] "GET /toy/product/upload HTTP/1.1" 200 3178
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:12:26 +0900] "GET /toy/product/upload HTTP/1.1" 200 3178
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:12:38 +0900] "GET /toy/product/upload HTTP/1.1" 200 3178
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:00:13:01 +0900] "GET /toy/product/upload HTTP/1.1" 200 3178
