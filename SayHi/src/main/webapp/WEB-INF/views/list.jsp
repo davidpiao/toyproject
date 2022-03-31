@@ -10,6 +10,14 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/list_style.css">
 <title>상품 게시판</title>
+<script>
+   function deleteok(id){
+      var a = confirm("정말로 삭제하겠습니까?");
+      if(a){
+         location.href='deleteok/' + id;
+      }
+   }
+</script>
 </head>
 <body>
 	<div id="header">
@@ -39,6 +47,9 @@
 							<p class="product-info">${u.rating}</p>
 							<p class="product-info">${u.review_num}</p>
 							<a href="detail/${u.getId()}">제품 상세보기</a>
+							<a href="editform/${u.getId()}">제품 정보 수정하기</a>
+							<a href="javascript:deleteok('${u.getId()}')">제품 삭제하기</a>
+							
 						</div></li>
 				</ul>
 			</c:forEach>

@@ -11,4 +11,8 @@ public interface ProductService {
 	public List<Product> getProductList();
 
 	public Product getProduct(int id);
+	
+	public int deleteProduct(int id);
+	
+	public int updateProduct(Product vo);
 }

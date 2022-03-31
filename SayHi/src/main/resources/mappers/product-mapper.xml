@@ -14,7 +14,17 @@
 		SELECT * from product
 		order by id DESC
 	</select>
+	
 	<select id="getProduct" resultType="product" parameterType="int">
 		SELECT * from product where id=#{id}
 	</select>
+	
+	<delete id="deleteProduct">
+		DELETE from product where id = #{id}
+	</delete>	
+
+	<update id="updateProduct">
+		update product
+		set category=#{category}, name=#{name}, brand=#{brand}, image=#{image}, price=#{price}, size=#{size}, rating=#{rating}, review_num=#{review_num}, tag=#{tag}
+	</update>
 </mapper>
