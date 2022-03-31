@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/navbar_style.css">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="navbar">
+		<ul id="nav">
+			<a href="list"><img src="../img/musinsa_logo.png" id="logo"></a>
+			<div class="dropdown-bar">
+				<li><a href="#menu0">랭킹</a></li>
+				<div class="dropdown">
+					<a href="#menu1">상품</a><a href="#menu1">브랜드</a><a href="#menu1">검색어</a>
+				</div>
+			</div>
+			<div class="dropdown-bar">
+				<li><a href="#menu1"><p>업데이트</p></a></li>
+				<div class="dropdown">
+					<a href="#menu1">신상품</a><a href="#menu1">재입고</a><a href="#menu1">세일소식</a>
+					<a href="#menu1">이벤트</a><a href="#menu1">입점</a>
+				</div>
+			</div>
+			<div class="dropdown-bar">
+				<li><a href="#menu2"><p>코디</p></a></li>
+				<div class="dropdown">
+					<a href="#menu1">코디숍</a><a href="#menu1">코디맵</a><a href="#menu1">브랜드 스냅</a>
+					<a href="#menu1">스트릿 스냅</a>
+				</div>
+			</div>
+			<div class="dropdown-bar">
+				<li><a href="#menu3">세일</a></li>
+				<div class="dropdown">
+					<a href="#menu1">쿠폰</a><a href="#menu1">세일</a><a href="#menu1">타임세일</a>
+					<a href="#menu1">기획전</a>
+				</div>
+			</div>
+			<div class="dropdown-bar">
+				<li><a href="#menu4">스페셜</a></li>
+				<div class="dropdown">
+					<a href="#menu1">쇼케이스</a><a href="#menu1">스페셜 이슈</a><a href="#menu1">단독상품</a>
+				</div>
+			</div>
+			<div class="nav-right">
+			<%-- <%if (result == 0) {%>
+				<li><input type="button" class="login-btn" value="로그인 및 회원가입"
+					onclick="moveToLogin();"></li>
+			<%} else {%>
+				<li><input type="button" class="login-btn" value="마이페이지" onclick="moveToMypage();"></li>
+				<li><input type="button" class="login-btn" value="로그아웃"
+					onclick="moveToLogout();"></li>
+			<%};%> --%>
+			</div>
+		</ul>
+	</div>
+</body>
+</html>

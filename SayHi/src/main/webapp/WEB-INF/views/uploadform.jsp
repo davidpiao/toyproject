@@ -12,16 +12,14 @@
 </head>
 <body>
 <script type="text/javascript">
-function send(){
+function send(){ 
 	if(!uploadForm.price.value){
 		alert("가격을 입력해주세요.");
-		history.back();
 	}
 	else{
 		uploadForm.price.value = parseInt(uploadForm.price.value);
+		uploadForm.submit();
 	}
-	
-	uploadForm.submit();
 }
 </script>
 

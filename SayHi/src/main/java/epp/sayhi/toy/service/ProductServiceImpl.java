@@ -13,7 +13,7 @@ public class ProductServiceImpl implements ProductService {
 
 	@Autowired
 	ProductDAO productDAO;
-	
+
 	@Override
 	public int uploadProduct(Product vo) {
 		// TODO Auto-generated method stub
@@ -24,6 +24,11 @@ public class ProductServiceImpl implements ProductService {
 	public List<Product> getProductList() {
 		// TODO Auto-generated method stub
 		return productDAO.getProductList();
+	}
+
+	@Override
+	public Product getProduct(int id) {
+		return productDAO.getProduct(id);
 	}
 
 }

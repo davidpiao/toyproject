@@ -10,17 +10,23 @@ import epp.sayhi.toy.model.Product;
 
 @Repository
 public class ProductDAO {
-	
+
 	@Autowired
 	SqlSession sqlSession;
-	
+
 	public int uploadProduct(Product vo) {
 		int result = sqlSession.insert("Product.uploadProduct", vo);
 		return result;
 	}
-	
-	public List<Product> getProductList(){
+
+	public List<Product> getProductList() {
 		List<Product> list = sqlSession.selectList("Product.getProductList");
 		return list;
+	}
+
+	public Product getProduct(int id) {
+		System.out.println("showing product..");
+		Product one = sqlSession.selectOne("Product.getProduct", id);
+		return one;
 	}
 }
