@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/list_style.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/list_style.css">
 <title>상품 게시판</title>
 </head>
 <body>
